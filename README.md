@@ -1,5 +1,8 @@
 # MIL Path — Multiple Instance Learning for Whole Slide Images (WSI)
 
+Check https://www.kaggle.com/code/mukherjeesrijit/deep-mil-histopathology for a step-by-step process to create this. 
+Check my slides / notes for a complete theoretical understanding.
+
 A small, focused repository demonstrating a Multiple Instance Learning (MIL) pipeline for Whole Slide Images (WSI). This project contains utilities to create CSV manifests for WSIs, a Dataset/DataLoader that converts WSIs into bags of tissue patches, simple MIL model implementations (Attention MIL and Additive MIL), and a solver module for training and evaluation.
 
 This repository is intended as a lightweight starting point for MIL experiments on WSI data. It is educational and meant to be adapted to production-grade pipelines (WSI tiling libraries, multi-resolution inputs, efficient IO, etc.).
