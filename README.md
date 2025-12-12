@@ -134,13 +134,5 @@ Extending this repository
 - Add logging (tensorboard, wandb), better checkpoint management, learning rate schedulers, and metrics beyond accuracy.
 - Add unit tests and CI for reproducibility.
 
-License
-- This repository does not include a formal license file. Add LICENSE as needed for your usage and redistribution.
-
 Acknowledgements
 - Concepts implemented here are inspired by standard MIL literature (e.g., Attention-based MIL) and common WSI preprocessing heuristics.
-
-If you'd like, I can:
-- Add a requirements.txt or environment.yml.
-- Replace the PIL WSI loader with openslide-based reading and provide an example for .svs files.
-- Add a short tutorial notebook demonstrating end-to-end training with synthetic WSI images.
